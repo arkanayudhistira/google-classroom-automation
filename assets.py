@@ -191,7 +191,7 @@ Jika ada pertanyaan yang ingin Bapak/Ibu tanyakan, silahkan mengirim email ke me
 
 Terima kasih dan good luck!'''
 },
-        self.lbb = {
+        self.capstone = {
 'Brief Capstone Data Visualization':
 '''Dear Bapak/Ibu,
 
@@ -232,3 +232,25 @@ Students whose score is below 24 will be given 1 chance to resubmit their work. 
 
 You can comment in this post or email mentor@algorit.ma if you have any questions for the details and We’ll be happy to help! Good luck!''',
 }
+        
+def classcode(code):
+        code = code.lower()
+        if code == 'p4ds':
+                return '1. Q: Programming for Data Science (P4DS) & Practical Statistic (PS)'
+        elif code == 'dv':
+                return '2. Q: Data Visualization (DV)'
+        elif code == 'ip':
+                return '3. Q: Interactive Plotting (IP)'
+        else:
+                raise Exception(f'{code} quiz not found')
+        
+def quizcode(code):
+        code = code.lower()
+        if code == 'p4ds':
+                return 'P4DS-PS Quiz'
+        elif code == 'dv':
+                return 'DV Quiz'
+        elif code == 'ip':
+                return 'IP Quiz'
+        else:
+                raise Exception(f'{code} quiz not found')
