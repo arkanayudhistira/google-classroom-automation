@@ -79,7 +79,7 @@ Terima kasih atas kerjasama Bapak/Ibu dan sampai jumpa di kelas!
 
 Best regards,
 Team Algoritma'''
-},
+}
 
         self.lbb = {
 '1. LBB: Programming for Data Science':
@@ -190,7 +190,7 @@ Hasil dashboard yang telah dikerjakan, jika menggunakan flexdashboard silahkan u
 Jika ada pertanyaan yang ingin Bapak/Ibu tanyakan, silahkan mengirim email ke mentor@algorit.ma. Kami akan dengan senang hati membantu.
 
 Terima kasih dan good luck!'''
-},
+}
         self.capstone = {
 'Brief Capstone Data Visualization':
 '''Dear Bapak/Ibu,
