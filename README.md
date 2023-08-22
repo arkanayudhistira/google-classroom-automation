@@ -25,9 +25,9 @@
 9. Pastikan nilai yang diakses sudah tepat dengan memeriksa dataframe pada section `Score Academy`
 10. Input nama course yang diinginkan untuk pembuatan post (**case-insensitive**, contoh : `wizard data visualization`)
 11. Input code quiz yang diinginkan untuk dilakukan penilaian (**case-insensitive**, contoh : `p4ds`), berikut list code quiz yang tersedia:
-  - `P4DS` : 1. Q: Programming for Data Science (P4DS) & Practical Statistic (PS)
-  - `DV` : 2. Q: Data Visualization (DV)
-  - `IP` : 3. Q: Interactive Plotting (IP)
+    - `P4DS` : 1. Q: Programming for Data Science (P4DS) & Practical Statistic (PS)
+    - `DV` : 2. Q: Data Visualization (DV)
+    - `IP` : 3. Q: Interactive Plotting (IP)
 11. Jika e-mail dan nilai student ditemukan, maka akan ditampilkan pada dataframe di section `Draft Grade`. Jika e-mail/nilai student tidak ditemukan, maka akan muncul warning
 12. Konfirmasi hasil grade draft yang telah dilakukan, jika sudah sesuai, ketik `y` kemudian enter
 13. Jika penilaian quiz telah berhasil, maka akan menampilkan `"Quiz grades was successfully returned"`
