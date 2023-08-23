@@ -1,4 +1,4 @@
-# DV Google Classroom Automation
+# Google Classroom Automation - How to Use
 
 ### Post Material dan Assignment Classroom
 
