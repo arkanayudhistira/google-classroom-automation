@@ -39,5 +39,6 @@
  1. Membuat Google Cloud Project dengan melakanakan step-step dari [Create a Google Cloud project](https://developers.google.com/workspace/guides/create-project).
  2. Mengaktivasi API Google Classroom sesuai dengan guide pada section [Enable the API](https://developers.google.com/classroom/quickstart/python#enable_the_api)
  3. Konfigurasi OAuth consent screen sesuai dengan guide pada section [Configure the OAuth consent screen](https://developers.google.com/classroom/quickstart/python#configure_the_oauth_consent_screen)
- 4. Melakukan pembuatan file **credential** sesuai dengan guide pada section [Authorize credentials for a desktop application](https://developers.google.com/classroom/quickstart/python#authorize_credentials_for_a_desktop_application)
- 5. Rename file credential yang telah didownload menjadi `credentials.json` dan letakkan pada directory notebook.
+ 4. Berikan nama `Algoritma` untuk mengisi App Name OAuth consent screen
+ 5. Melakukan pembuatan file **credential** sesuai dengan guide pada section [Authorize credentials for a desktop application](https://developers.google.com/classroom/quickstart/python#authorize_credentials_for_a_desktop_application)
+ 6. Rename file credential yang telah didownload menjadi `credentials.json` dan letakkan pada directory notebook.
