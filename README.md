@@ -35,7 +35,7 @@
 
  ## Pembuatan File `credentials.json`
 
- Jika file `credentials.json` hilang/tidak bisa digunakan untuk melakukan autentikasi, anda dapat membuat file credentials baru yang dapat digunakan. Secara keseluruhan, guide pembuatan file tersebut telah disediakan oleh Google pada [Classroom Quickstart](https://developers.google.com/classroom/quickstart/python). Berikut step-step yang perlu dilaksanakan:
+ Jika file `credentials.json` hilang/tidak bisa digunakan untuk melakukan autentikasi, anda dapat membuat file credentials baru. Secara keseluruhan, guide pembuatan file tersebut telah disediakan oleh Google pada [Classroom Quickstart](https://developers.google.com/classroom/quickstart/python). Berikut step-step yang perlu dilaksanakan:
  1. Membuat Google Cloud Project dengan melakanakan step-step dari [Create a Google Cloud project](https://developers.google.com/workspace/guides/create-project)
  2. Mengaktivasi API Google Classroom sesuai dengan guide pada section [Enable the API](https://developers.google.com/classroom/quickstart/python#enable_the_api)
  3. Konfigurasi OAuth consent screen sesuai dengan guide pada section [Configure the OAuth consent screen](https://developers.google.com/classroom/quickstart/python#configure_the_oauth_consent_screen)
