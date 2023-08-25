@@ -1,6 +1,6 @@
 # Google Classroom Automation - How to Use
 
-### Post Material dan Assignment Classroom
+## Post Material dan Assignment Classroom
 
 1. Install library yang diperlukan pada `requirements.txt` dengan menjalankan `pip install -r requirements.txt` pada anaconda prompt/terminal
 2. Pastikan file `credentials.json` tersedia pada directory untuk melakukan autentikasi akun pengguna
@@ -12,7 +12,7 @@
 8. Jika pembuatan suatu post berhasil, maka akan menampilkan `"Material ... created"` atau `"Assignment ... created"`
 9. Post telah berhasil dibuat secara otomatis, silahkan periksa pada Google Classroom
 
-### Grade Quiz
+## Grade Quiz
 
 1. Install library yang diperlukan pada `requirements.txt` dengan menjalankan `pip install -r requirements.txt` pada anaconda prompt/terminal
 2. Pastikan file `credentials.json` tersedia pada directory untuk melakukan autentikasi akun pengguna
@@ -33,7 +33,7 @@
 13. Jika penilaian quiz telah berhasil, maka akan menampilkan `"Quiz grades was successfully returned"`
 14. Quiz telah berhasil dinilai secara otomatis, silahkan periksa pada Google Classroom
 
- ### Pembuatan File `credentials.json`
+ ## Pembuatan File `credentials.json`
 
  Jika file `credentials.json` hilang/tidak bisa digunakan untuk melakukan autentikasi, secara keseluruhan guide pembuatan file tersebut telah disediakan oleh Google pada [Classroom Quickstart](https://developers.google.com/classroom/quickstart/python). Berikut step-step yang perlu dilaksanakan:
  1. Membuat Google Cloud Project dengan melakanakan step-step dari [Create a Google Cloud project](https://developers.google.com/workspace/guides/create-project)
