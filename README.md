@@ -18,7 +18,7 @@
 2. Pastikan file `credentials.json` tersedia pada directory untuk melakukan autentikasi akun pengguna
 3. Buka file `quiz-grader.ipynb` pada IDE anda
 4. Pastikan link spreadsheet yang tersimpan pada `SCORE_ACADEMY_LINK` dan range sheet yang tersimpan pada `GRADE_RANGE` sudah sesuai
-5. Laksanakan Run All
+5. Lakukan Run All
 6. Browser akan terbuka untuk melakukan autentikasi pada akun Google anda, gunakan email `algorit.ma`, dan kemudian klik `Allow`
 7. Jika proses autentikasi berhasil, maka akan muncul `"The authentication flow has completed. You may close this window."`, dan silahkan kembali ke IDE
 8. File `token.json` telah terbentuk untuk memberikan akses untuk penggunaan selanjutnya (sehingga tidak perlu melakukan autentikasi kembali)
@@ -33,4 +33,11 @@
 13. Jika penilaian quiz telah berhasil, maka akan menampilkan `"Quiz grades was successfully returned"`
 14. Quiz telah berhasil dinilai secara otomatis, silahkan periksa pada Google Classroom
 
- 
+ ### Pembuatan File `credentials.json`
+
+ Jika file `credentials.json` hilang/tidak bisa digunakan untuk melakukan autentikasi, secara keseluruhan guide pembuatan file tersebut telah disediakan oleh Google pada [Classroom Quickstart](https://developers.google.com/classroom/quickstart/python). Berikut step-step yang perlu dilaksanakan:
+ 1. Membuat Google Cloud Project dengan melakanakan step-step dari [guide berikut](https://developers.google.com/workspace/guides/create-project).
+ 2. Mengaktivasi API Google Classroom sesuai dengan guide pada section [Enable the API](https://developers.google.com/classroom/quickstart/python#enable_the_api)
+ 3. Konfigurasi OAuth consent screen sesuai dengan guide pada section [Configure the OAuth consent screen](https://developers.google.com/classroom/quickstart/python#configure_the_oauth_consent_screen)
+ 4. Melakukan pembuatan file **credential** sesuai dengan guide pada section [Authorize credentials for a desktop application](https://developers.google.com/classroom/quickstart/python#authorize_credentials_for_a_desktop_application)
+ 5. Rename file credential yang telah didownload menjadi `credentials.json` dan letakkan pada directory notebook.
