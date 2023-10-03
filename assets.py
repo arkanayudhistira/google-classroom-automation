@@ -535,3 +535,14 @@ def quizcode(code):
                 return 'IP Quiz'
         else:
                 raise Exception(f'{code} quiz not found')
+        
+def max_score(code):
+        code = code.lower()
+        if code == 'p4ds':
+                return 4
+        elif code == 'dv':
+                return 2
+        elif code == 'ip':
+                return 1
+        else:
+                raise Exception(f'{code} quiz not found')
