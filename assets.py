@@ -476,7 +476,7 @@ You can comment in this post or email mentor@algorit.ma if you have any question
 'Brief Capstone Data Visualization':
 '''Dear Bapak/Ibu,
 
-Brief Capstone Data Visualization (DV) merupakan file pemaparan rancangan Capstone DV yang hendak Bapak/Ibu buat. Brief ini di buat pada hari pemaparan Capstone DV. Petunjuk pengerjaan Capstone DV dapat diakses di link berikut: https://rpubs.com/AlgoritmaAcademy/dv-capstone
+Brief Capstone Data Visualization (DV) merupakan file pemaparan rancangan Capstone DV yang hendak Bapak/Ibu buat. Brief ini di buat pada hari pemaparan Capstone DV. Petunjuk pengerjaan Capstone DV dapat diakses di link berikut: https://rpubs.com/Algoritma/dv-capstone
 
 Jika sudah menyelesaikkan Brief Capstone Data Visualization, silahkan knit ke dalam versi .html dan submit file .html tersebut di sini. Bapak/Ibu diiharapkan mengikuti template yang sudah dilampirkan di bawah ini.
 
@@ -522,6 +522,18 @@ def classcode(code):
                 return '2. Q: Data Visualization (DV)'
         elif code == 'ip':
                 return '3. Q: Interactive Plotting (IP)'
+        elif code == 'rm':
+                return '1. Q: Regression Model (RM)'
+        elif code == 'c1':
+                return '2. Q: Classification in Machine Learning I (C1)'
+        elif code == 'c2':
+                return '3. Q: Classification in Machine Learning II (C2)'
+        elif code == 'ul':
+                return '4. Q: Unsupervised Learning (UL)'
+        elif code == 'ts':
+                return '5. Q: Time Series & Forecasting (TSF)'
+        elif code == 'nn':
+                return '6. Q : Neural Network and Deep Learning (NN)'
         else:
                 raise Exception(f'{code} quiz not found')
         
@@ -533,5 +545,63 @@ def quizcode(code):
                 return 'DV Quiz'
         elif code == 'ip':
                 return 'IP Quiz'
+        elif code == 'rm':
+                return 'RM Quiz'
+        elif code == 'c1':
+                return 'C1 Quiz'
+        elif code == 'c2':
+                return 'C2 Quiz'
+        elif code == 'ul':
+                return 'UL Quiz'
+        elif code == 'ts':
+                return 'TS Quiz'
+        elif code == 'nn':
+                return 'NN Quiz'
+        else:
+                raise Exception(f'{code} quiz not found')
+        
+def max_score(code):
+        code = code.lower()
+        if code == 'p4ds':
+                return 4
+        elif code == 'dv':
+                return 2
+        elif code == 'ip':
+                return 1
+        elif code == 'rm':
+                return 4
+        elif code == 'c1':
+                return 4
+        elif code == 'c2':
+                return 4
+        elif code == 'ul':
+                return 4
+        elif code == 'ts':
+                return 4
+        elif code == 'nn':
+                return 4
+        else:
+                raise Exception(f'{code} quiz not found')
+
+def quiz_range(code):
+        code = code.lower()
+        if code == 'p4ds':
+                return 'F2:F200'
+        elif code == 'dv':
+                return 'G2:G200'
+        elif code == 'ip':
+                return 'H2:H200'
+        elif code == 'rm':
+                return 'M2:M200'
+        elif code == 'c1':
+                return 'N2:N200'
+        elif code == 'c2':
+                return 'O2:O200'
+        elif code == 'ul':
+                return 'P2:P200'
+        elif code == 'ts':
+                return 'Q2:Q200'
+        elif code == 'nn':
+                return 'R2:R200'
         else:
                 raise Exception(f'{code} quiz not found')
