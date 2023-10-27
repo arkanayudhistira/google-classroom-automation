@@ -1,10 +1,32 @@
 # Google Classroom Automation - How to Use
 
+Sebelum mengakses aplikasi, pastikan anda telah mempersiapkan hal-hal berikut:
+- Python dan Visual Studio Code
+- Instalasi library yang diperlukan pada `requirements.txt` di virtual environment dengan menjalankan
+  
+   ```
+   pip install -r requirements.txt
+   ```
+- File `credentials.json` tersedia pada directory untuk melakukan autentikasi akun pengguna
+   
+## Grade Quiz (Streamlit Dashboard)
+
+1. Buka Visual Studio Code dan pastikan virtual environment yang digunakan telah sesuai (pada bagian pojok kanan bawah) <br>
+    ![image](https://github.com/arkanayudhistira/google-classroom-automation/assets/100895120/38e04660-93fa-4d0a-ae8f-7492b7cc526d)
+   
+2. Pilih menu Terminal di bagian kiri atas dan pilih New Terminal <br>
+    ![image](https://github.com/arkanayudhistira/google-classroom-automation/assets/100895120/916f4b60-e2f1-40c9-9206-2449c6b3a1e2)
+
+3. Buka Dashboard Streamlit dengan menjalankan code berikut: <br>
+   ```
+   streamlit run app.py
+   ```
+4. Pilih nama classroom, spesialisasi, kelas, sheet Score Academy, dan upload file CSV hasil quiz dari Algoritma Online WP Admin
+5. Klik **Grade Quiz** untuk me-return nilai quiz student di Google Classroom dan mencatat di sheet Score Academy
+
 ## Post Material dan Assignment Classroom
 
-1. Install library yang diperlukan pada `requirements.txt` dengan menjalankan `pip install -r requirements.txt` pada anaconda prompt/terminal
-2. Pastikan file `credentials.json` tersedia pada directory untuk melakukan autentikasi akun pengguna
-3. Buka file `classroom-automation.ipynb` pada IDE anda kemudian Run All
+1. Buka file `classroom-automation.ipynb` pada IDE anda kemudian Run All
 4. Browser akan terbuka untuk melakukan autentikasi pada akun Google anda, gunakan email `algorit.ma`, dan kemudian klik `Allow`
 5. Jika proses autentikasi berhasil, maka akan muncul `"The authentication flow has completed. You may close this window."`, dan silahkan kembali ke IDE
 6. File `token.json` telah terbentuk untuk memberikan akses untuk penggunaan selanjutnya (sehingga tidak perlu melakukan autentikasi kembali)
@@ -12,11 +34,9 @@
 8. Jika pembuatan suatu post berhasil, maka akan menampilkan `"Material ... created"` atau `"Assignment ... created"`
 9. Post telah berhasil dibuat secara otomatis, silahkan periksa pada Google Classroom
 
-## Grade Quiz
+## Grade Quiz (Notebook)
 
-1. Install library yang diperlukan pada `requirements.txt` dengan menjalankan `pip install -r requirements.txt` pada anaconda prompt/terminal
-2. Pastikan file `credentials.json` tersedia pada directory untuk melakukan autentikasi akun pengguna
-3. Buka file `quiz-grader.ipynb` pada IDE anda
+1. Buka file `quiz-grader.ipynb` pada IDE anda
 4. Pastikan link spreadsheet yang tersimpan pada `SCORE_ACADEMY_LINK` dan range sheet yang tersimpan pada `GRADE_RANGE` sudah sesuai
 5. Lakukan Run All
 6. Browser akan terbuka untuk melakukan autentikasi pada akun Google anda, gunakan email `algorit.ma`, dan kemudian klik `Allow`
